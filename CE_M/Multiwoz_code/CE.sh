@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1     python ~/DialLoss/T/CE_M/main.py        --data ~/DialLoss/T/MultiWOZ_2.2_extracted_1/         --train train.tsv.pre         --valid dev.tsv.pre         --test test.tsv.pre          --save CE 	    --predict_dir results/         --batch_size 32         --epoch 20         --max_len 350         #--test_only yes         #--continue_train yes \ 
